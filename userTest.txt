@@ -1,0 +1,44 @@
+*********************
+Test Create user
+http://127.0.0.1:8000/v1/affiliate/signup
+*********************
+{
+        "email": "provider@demo.com",
+        "password": "123",
+        "role":3,
+        "type": "1",
+        "card_id":"12345678",
+        "address":"xarrera 1 52 13",
+        "phone_number":"12345678",
+        "name":"pepito",
+        "lastname":"perez",
+        "provider_name":"DemoProv",
+        "provider_rnt":"123456"
+}
+
+*********************
+superuser
+http://127.0.0.1:8000/admin
+*********************
+"email": "super@super.com",
+"password": "123",
+
+
+*********************
+Test Update user
+http://127.0.0.1:8000/v1/affiliate/user/id/
+*********************
+{
+       
+        "email": "provider@demo.com",
+        "role":3,
+        "type": "1",
+        "card_id":"12345678",
+        "address":"xarrera 1 52 13",
+        "phone_number":"12345678",
+        "name":"pepito",
+        "lastname":"perez",
+        "provider_name":"DemoProv",
+        "provider_id":"12345678",
+        "provider_rnt":"123456"
+}
